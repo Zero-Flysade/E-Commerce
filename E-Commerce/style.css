@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8e4e4;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 100px;
+  border: 1px solid;
+}
+
+.topbar a {
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 45px;
+  font-weight: bold;
+  font-size: 20.5px;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+}
+
+.headline1 {
+  font-size: 30px;
+}
+
+.navbtn {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.header {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+.shoesimg {
+  width: 500px;
+  height: auto;
+}
+
+.shoe-container {
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.shoedescription {
+  width: 400px;
+  position: relative;
+  left: 830px;
+  top: -220px;
+}
+
+.black,
+.grey,
+.white {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.black:hover,
+.grey:hover,
+.white:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 7px 0px #000;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.sizes-container {
+  display: flex;
+}
+
+.sizes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.sizes:hover {
+  box-shadow: 0px 0px 7px 0px #000;
+}
+
+.add {
+  background-color: #bdb452;
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.add:hover {
+  transform: scale(1.1);
+}
+
+.titleR {
+  margin-left: 50px;
+}
+
+.recommend {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.allbtn,
+.adidasbtn,
+.nikebtn,
+.pumabtn,
+.filabtn {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid;
+  width: 90px;
+  height: 30px;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.allbtn:hover,
+.adidasbtn:hover,
+.nikebtn:hover,
+.pumabtn:hover,
+.filabtn:hover {
+  transform: scale(1.1);
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+  left: -200px;
+  height: 50px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+#search-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.searchbar-pic {
+  height: 30px;
+}
+
+.more {
+  margin-top: -20px;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titleM {
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.a-shoe,
+.b-shoe,
+.c-shoe,
+.d-shoe,
+.e-shoe,
+.f-shoe,
+.g-shoe,
+.h-shoe,
+.i-shoe {
+  border: 1px solid grey;
+  margin-right: 15px;
+  border-radius: 0px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px 0px;
+}
+
+.a-shoe:hover,
+.b-shoe:hover,
+.c-shoe:hover,
+.d-shoe:hover,
+.e-shoe:hover,
+.f-shoe:hover,
+.g-shoe:hover,
+.h-shoe:hover,
+.i-shoe:hover {
+  transform: scale(1.1);
+}
